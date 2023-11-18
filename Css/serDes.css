@@ -17,7 +17,7 @@
     width: 100%;
     height:100%;
     opacity: 0.4;
-    background-image: url(/img/Lash_designer.jpg);
+    background-image: url(../img/Lash_designer.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@
     width: 100%;
     height:100%;
    opacity: 0.4;
-    background-image: url(/img/maquiagem.jpg);
+    background-image: url(../img/maquiagem.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
     width: 100%;
     height:100%;
    opacity: 0.4;
-    background-image: url(/img/cabelo.jpg);
+    background-image: url(../img/cabelo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
     width: 100%;
     height:100%;
     opacity: 0.4;
-    background-image: url(/img/depilacao.jpg);
+    background-image: url(../img/depilacao.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@
     width: 100%;
     height:100%;
     opacity: 0.4;
-    background-image: url(/img/Design-de-Sobrancelha.jpg);
+    background-image: url(../img/Design-de-Sobrancelha.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,24 +92,26 @@
 }
 #AgendDes{
     position: absolute;
-    
     bottom: 4%;
     display: inline-flex;
     text-align: center;
     font-weight: bold;
     border: none;
     background-color: #00000094;
-    color: #fff;
     border-radius: 4%;
-    padding: 5px;
     cursor: pointer;
     text-transform: uppercase;
     margin: 5px;
 }
+#AgendDes a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
 
 #AgendDes:hover{
- 
     background-color: #fff;
+}
+#AgendDes a:hover{
     color: #864949;
-
 }

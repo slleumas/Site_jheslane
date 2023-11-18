@@ -15,7 +15,6 @@
     font-size: 600%;
     position: absolute;
     top: 0;
-  
 }
 
 #chamad02{
@@ -24,7 +23,21 @@
     font-weight: lighter;
     color: #574646;
     position: absolute;
-    bottom: 0;
-   
-  
+    bottom: 0;  
+}
+
+@media screen and (max-width: 600px){
+    .chamadaSit{
+        padding: 20px;
+        height: 55px;
+    }
+ 
+    #chamad01{
+        font-size: 200%;
+    }
+    
+    #chamad02{  
+        font-size: 180%;
+    }
+
 }
