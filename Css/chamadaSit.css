@@ -1,0 +1,30 @@
+.chamadaSit{
+    padding: 10px;
+    height: 160px; 
+    color: #A6826D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbeefc;
+    
+}
+
+#chamad01{
+    font-family: 'Ms Madi', cursive;
+    font-size: 600%;
+    position: absolute;
+    top: 0;
+  
+}
+
+#chamad02{
+    font-variant: small-caps;
+    font-size: 500%;
+    font-weight: lighter;
+    color: #574646;
+    position: absolute;
+    bottom: 0;
+   
+  
+}

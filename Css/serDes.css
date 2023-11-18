@@ -1,0 +1,115 @@
+.servDes{
+    display: flex;
+
+
+}
+.servDes1{
+    position: relative;
+    background-color: black;
+    width: 20%;
+    height: 600px;
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+
+}
+.lashDes{
+    width: 100%;
+    height:100%;
+    opacity: 0.4;
+    background-image: url(/img/Lash_designer.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lashDes:hover{
+    opacity: 1.0;
+}
+.maquiDes{
+    width: 100%;
+    height:100%;
+   opacity: 0.4;
+    background-image: url(/img/maquiagem.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.maquiDes:hover{
+    opacity: 1.0;
+}
+.cabeDes{
+    width: 100%;
+    height:100%;
+   opacity: 0.4;
+    background-image: url(/img/cabelo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.cabeDes:hover{
+    opacity: 1.0;
+}
+.depiDes{
+    width: 100%;
+    height:100%;
+    opacity: 0.4;
+    background-image: url(/img/depilacao.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.depiDes:hover{
+    opacity: 1.0;
+}
+.desgDes{
+    width: 100%;
+    height:100%;
+    opacity: 0.4;
+    background-image: url(/img/Design-de-Sobrancelha.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desgDes:hover{
+    opacity: 1.0;
+}
+.servTex{
+    position: absolute;
+    transform: rotate(0.25turn);
+    display: inline-flex;
+    font-size: 200%;
+    width: 100%;
+    
+    text-align: center;
+}
+.servTex>a{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#AgendDes{
+    position: absolute;
+    
+    bottom: 4%;
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    background-color: #00000094;
+    color: #fff;
+    border-radius: 4%;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#AgendDes:hover{
+ 
+    background-color: #fff;
+    color: #864949;
+
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.barraMide{
+    background-color: #A6826D;
+    text-align: center;
+    padding: 5px;
+}
+
+.barraMide a {
+    text-decoration: none;
+    color: #ffebeb;
+    padding: 10px;
+}
+.barraMide a:hover {
+    color: #221f1f;
+}
+.fil0 {
+    cursor: pointer;
+    fill:#ffebeb;
+}
+.fil0:hover {
+    fill:#221f1f;
+}
+

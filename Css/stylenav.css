@@ -1,0 +1,38 @@
+
+#menu-base {
+    list-style: none;
+    padding: 0;
+    background-color: #2E4458;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+#menu-base ul li{
+    color: #ffffff;
+    display: inline;
+}
+
+.fil0 {
+    cursor: pointer;
+    fill:#ffffff;
+}
+
+.fil0:hover{
+    fill: #fccbcb;
+}
+
+#menu-base ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 20px;
+display: inline-block;
+}
+#menu-base a:hover{
+   color: #fccbcb;
+  
+    
+    }
+
+
+

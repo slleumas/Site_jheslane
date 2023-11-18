@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.prodMake{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prodMake>div{
+    flex: 1 1 200px;
+    max-width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.uniProdmake{
+    text-wrap: wrap;
+    text-align: center;
+}
+.uniProdmake>img{
+    max-width: 100%;
+}
+#nameProd{
+    font-size: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    color: rgb(41, 41, 43);
+}
+.preProdmake{
+    display: inline-flex;
+    align-items: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#valorPk{
+    color: rgb(82, 29, 36);
+    font-weight: bold;
+    font-size:160%;
+    padding-right: 5px;
+}
+#quantPk{
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+    padding: 0 5px 0 5px;
+}
+#parcPk{
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 130%;
+    color: rgb(151, 151, 151);
+}
+.butProdmake{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+.compbw1{
+    width: 50%;
+    height: 55px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70);
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.compbw1>a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.compbw2{
+    width: 30%;
+    height: 55px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: rgb(223, 223, 223);
+    cursor: pointer; 
+}
+.compbw2>a{
+    text-decoration: none;
+    color: #5e5e5e;
+    padding: 2px;
+}
+.material-icons.eb88{
+    color: #5e5e5e;
+    font-size: 20px;
+}
