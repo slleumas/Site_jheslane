@@ -1,4 +1,4 @@
 .agendaSite{
-background-image:url(https://calendly.com/agenciasuca/cuidados-com-sua-beleza);
-
+    display: flex;
+    justify-content: center;
 }
