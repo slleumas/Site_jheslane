@@ -1,57 +1,65 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(../Java/contsliderResp.js);
 
+.contSlider2{
+    display: none;
+}
+@media screen and (max-width: 600px){
 
-.contSlider{
+.contSlider2{
+    display: block;
     width: 100%;
     margin: 0 auto;
 }
-.carroselSlider{
+
+.carroselSlider2{
     border: 1px solid #999999;
     height: 100%;
     position: relative;
     overflow: hidden;
+   
 }
-.controls .arrow{
+.controlsResp .arrowResp{
     position: absolute;
     top: 50%;
     cursor: pointer;
 }
-.arrow.left{
-    left: 10px;
+.arrowResp.leftResp{
+    left: 10 px;
 }
-.arrow.right{
+.arrowResp.rightResp{
     right: 10px;
 }
-.sliderTop{
+.sliderResp{
     height: 100%;
     display: flex;
     width: 400%;
     transition: all 0.3s;
 }
-.sliderTop section{
+.sliderResp section{
     flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sliderTop section img{
+.sliderResp section img{
     width: 100%;
 }
 .material-icons { 
     font-size: 48px;
     color: #FB8C00;
  }
- .controls ul{
+ .controlsResp ul{
 position: absolute;
 bottom: 10px;
 left: 50%;
 list-style: none;
-transform: translate(-50%);
+transform: translate (-50%);
 display: flex;
 padding: 0;
 margin: 0;
  }
- .controls ul li{
+ .controlsResp ul li{
     width: 10px;
     height: 10px;
     border-radius: 10px;
@@ -60,12 +68,7 @@ margin: 0;
     background-color: #02020260;
     cursor: pointer;
  }
- .controls ul .pointselect {
+ .controlsResp ul .pointselectResp {
     background-color: #f76b6bb7;
  }
- @media screen and (max-width: 600px){
-
-    .contSlider{
-        display: none;
-    } 
- }
+}

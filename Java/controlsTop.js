@@ -3,8 +3,6 @@ const leftArrow = document. querySelector('.left');
 const rightArrow = document. querySelector('.right');
 const indicatore = document.querySelector('.controls ul');
 
-
-
 var sectionIndex = 0;
 var seltslider = 0;
 
@@ -12,6 +10,7 @@ function selectpointIndex(){
     document.querySelector('.controls .pointselect').classList.remove('pointselect');
     sliderTop.style.transform = 'translate('+(sectionIndex) * -25 +'%)';  
 }
+
 
 setInterval(()=>{
     ProxImag()
@@ -25,16 +24,16 @@ function ProxImag(){
     sectionIndex = (seltslider<3)?seltslider + 1:3;
     selectpointIndex();
     indicatore.children[sectionIndex].classList.add('pointselect');
+    
     }
 
 
 document.querySelectorAll('.controls li').forEach(function(indicator,ind) {
     indicator.addEventListener('click',function(){
     sectionIndex = ind;
-   selectpointIndex();
+    selectpointIndex();
     indicator.classList.add('pointselect');
     });
-    
 });
 
 leftArrow.addEventListener('click',function(){
@@ -47,5 +46,7 @@ rightArrow.addEventListener('click',function(){
     sectionIndex = (sectionIndex<3)?sectionIndex + 1:3;
     selectpointIndex();
     indicatore.children[sectionIndex].classList.add('pointselect');
+    
    
 });
+
